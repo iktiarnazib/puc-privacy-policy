@@ -6,24 +6,112 @@
 <title>Child Safety Standards - Premier Uni Central</title>
 
 <style>
-body{
-    font-family:Arial,Helvetica,sans-serif;
-    max-width:900px;
-    margin:40px auto;
-    padding:30px;
-    line-height:1.7;
-    background:#f4f4f4;
-    color:#333;
-}
-.container{
-    background:#fff;
-    padding:40px;
-    border-radius:10px;
-    box-shadow:0 0 20px rgba(0,0,0,.08);
-}
-h1{color:#1a73e8;}
-h2{margin-top:30px;}
-a{color:#1a73e8;}
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+
+    body{
+        font-family:Arial, Helvetica, sans-serif;
+        background:#f4f4f4;
+        color:#333;
+        line-height:1.7;
+    }
+
+    .container{
+        max-width:900px;
+        margin:40px auto;
+        background:#fff;
+        padding:40px;
+        border-radius:10px;
+        box-shadow:0 0 20px rgba(0,0,0,.08);
+    }
+
+    /* Navigation Buttons Styling */
+    .nav-menu {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 25px;
+        flex-wrap: wrap;
+    }
+    
+    .nav-btn {
+        background-color: #f4f4f4;
+        color: #1a73e8;
+        border: 1px solid #1a73e8;
+        padding: 8px 16px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+        transition: all 0.3s ease;
+    }
+
+    .nav-btn:hover {
+        background-color: #1a73e8;
+        color: white;
+    }
+    
+    .nav-btn.active {
+        background-color: #1a73e8;
+        color: white;
+    }
+
+    h1{
+        color:#1a73e8;
+        margin-bottom:10px;
+    }
+
+    h2{
+        margin-top:35px;
+        margin-bottom:10px;
+        border-bottom:2px solid #eee;
+        padding-bottom:8px;
+    }
+
+    p{
+        margin-bottom:15px;
+    }
+
+    ul{
+        margin-left:25px;
+        margin-bottom:20px;
+    }
+
+    li{
+        margin-bottom:8px;
+    }
+
+    a{
+        color:#1a73e8;
+        text-decoration:none;
+    }
+
+    .updated{
+        color:#666;
+        margin-bottom:30px;
+    }
+
+    footer{
+        margin-top:40px;
+        text-align:center;
+        color:#777;
+        font-size:14px;
+    }
+
+    @media(max-width:700px){
+        .container{
+            margin:15px;
+            padding:25px;
+        }
+        .nav-menu {
+            flex-direction: column;
+        }
+        .nav-btn {
+            text-align: center;
+        }
+    }
 </style>
 </head>
 
@@ -31,54 +119,68 @@ a{color:#1a73e8;}
 
 <div class="container">
 
-<h1>Child Safety Standards</h1>
+    <!-- Navigation Menu -->
+    <div class="nav-menu">
+        <a href="index.html" class="nav-btn">Privacy Policy</a>
+        <a href="terms-and-conditions.html" class="nav-btn">Terms & Conditions</a>
+        <a href="child-safety.html" class="nav-btn active">Child Safety Policy</a>
+        <a href="delete-account.html" class="nav-btn">Delete Account</a>
+    </div>
 
-<p><strong>Last Updated:</strong> July 7, 2026</p>
+    <h1>Child Safety Standards</h1>
 
-<p>
-Premier Uni Central is committed to providing a safe environment for all members of the Premier University community. We have zero tolerance for child sexual abuse and exploitation (CSAE) and child sexual abuse material (CSAM).
-</p>
+    <p class="updated">
+    <strong>Last Updated:</strong> July 7, 2026
+    </p>
 
-<h2>Our Standards</h2>
+    <p>
+    Premier Uni Central is committed to providing a safe environment for all members of the Premier University community. We have zero tolerance for child sexual abuse and exploitation (CSAE) and child sexual abuse material (CSAM).
+    </p>
 
-<ul>
-<li>Users may not create, upload, share, request, or distribute content involving child sexual abuse or exploitation.</li>
+    <h2>Our Standards</h2>
 
-<li>Users may not use the platform to groom, exploit, or endanger minors.</li>
+    <ul>
+    <li>Users may not create, upload, share, request, or distribute content involving child sexual abuse or exploitation.</li>
 
-<li>Any account found violating these standards may be permanently suspended or removed.</li>
+    <li>Users may not use the platform to groom, exploit, or endanger minors.</li>
 
-<li>Content reported by users is reviewed by authorized administrators.</li>
+    <li>Any account found violating these standards may be permanently suspended or removed.</li>
 
-<li>Where required by applicable law, reports involving child sexual abuse material or exploitation may be reported to the appropriate authorities.</li>
-</ul>
+    <li>Content reported by users is reviewed by authorized administrators.</li>
 
-<h2>Reporting</h2>
+    <li>Where required by applicable law, reports involving child sexual abuse material or exploitation may be reported to the appropriate authorities.</li>
+    </ul>
 
-<p>
-Users can report inappropriate posts or comments directly within the application using the built-in reporting feature.
-</p>
+    <h2>Reporting</h2>
 
-<p>
-Reports are reviewed by authorized administrators as quickly as reasonably possible.
-</p>
+    <p>
+    Users can report inappropriate posts or comments directly within the application using the built-in reporting feature.
+    </p>
 
-<h2>Enforcement</h2>
+    <p>
+    Reports are reviewed by authorized administrators as quickly as reasonably possible.
+    </p>
 
-<p>
-Premier Uni Central reserves the right to remove content, suspend accounts, or permanently ban users who violate these Child Safety Standards.
-</p>
+    <h2>Enforcement</h2>
 
-<h2>Contact</h2>
+    <p>
+    Premier Uni Central reserves the right to remove content, suspend accounts, or permanently ban users who violate these Child Safety Standards.
+    </p>
 
-<p>
-For questions regarding child safety or to report concerns, contact:
-</p>
+    <h2>Contact</h2>
 
-<p>
-<strong>Email:</strong><br>
-<a href="mailto:iktiarnazib@gmail.com">iktiarnazib@gmail.com</a>
-</p>
+    <p>
+    For questions regarding child safety or to report concerns, contact:
+    </p>
+
+    <p>
+    <strong>Email:</strong><br>
+    <a href="mailto:iktiarnazib@gmail.com">iktiarnazib@gmail.com</a>
+    </p>
+
+    <footer>
+    © 2026 Premier University Central. All Rights Reserved.
+    </footer>
 
 </div>
 
